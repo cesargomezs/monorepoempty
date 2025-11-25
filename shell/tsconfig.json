@@ -1,0 +1,19 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./packages/mytslib"
+    },
+    {
+      "path": "./apps/website"
+    },
+    {
+      "path": "./packages/buildablelib"
+    },
+    {
+      "path": "./apps/mobile"
+    }
+  ]
+}

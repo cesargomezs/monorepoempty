@@ -33,7 +33,12 @@
     "apps/*"
   ],
   "dependencies": {
+    "@material-tailwind/react": "^2.1.10",
+    "framer-motion": "^12.23.24",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-player": "^3.4.0",
+    "react-redux": "^9.2.0",
+    "uninstall": "^0.0.0"
   }
 }

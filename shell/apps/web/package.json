@@ -1,0 +1,21 @@
+{
+  "name": "@shell/web",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "targets": {
+      "test": {
+        "executor": "@nx/jest:jest",
+        "outputs": [
+          "{projectRoot}/test-output/jest/coverage"
+        ],
+        "options": {
+          "jestConfig": "apps/website/jest.config.ts"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "npm": "^11.6.2"
+  }
+}

@@ -7,13 +7,13 @@
       "path": "./packages/mytslib"
     },
     {
-      "path": "./apps/website"
-    },
-    {
       "path": "./packages/buildablelib"
     },
     {
       "path": "./apps/mobile"
+    },
+    {
+      "path": "./apps/web"
     }
   ]
 }

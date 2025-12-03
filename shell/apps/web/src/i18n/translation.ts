@@ -22,7 +22,17 @@ export const translation = {
     "carousel": {
       "title": "Sneak peek into our visual journey coming soon!",
       "nextimg": ">>",
-      "previousimg": "<<"
+      "previousimg": "<<",
+      "titlecarousel1": "Attorneys",
+      "descriptioncarousel1": "The Latino community continues to demonstrate its strength through solidarity and mutual support, especially when it comes to accessing legal resources. Thanks to donations and the commitment of attorneys who offer guidance, workshops, and community assistance, many families can receive the help they need to face complex situations. These professionals, together with local organizations, work hand in hand to provide accessible information, defend rights, and ensure that no one faces their legal challenges alone. Every contribution—whether time, knowledge, or resources—strengthens our community network and reaffirms the power of coming together to protect and uplift our people.",
+      "titlecarousel2": "Community",
+      "descriptioncarousel2": "We believe in creating authentic bonds between people who share values, language, and a deep love for Latino culture. This genuine connection allows us to build a strong support network where we share experiences, offer advice, and encourage one another to grow. In every gathering, we strengthen our identity, celebrate what unites us, and create safe spaces where every voice is heard and every story has a place. In this way, we continue building community, moving forward together, and honoring the spirit of unity that defines our people.",
+      "titlecarousel3": "Donations",
+      "descriptioncarousel3": "The Latino community is known for its solidarity and ability to support one another during important moments. Through donations—whether time, resources, or knowledge—we strengthen the bonds that unite us and create opportunities for those who need them most. Every contribution, no matter how small, represents an act of love and commitment to our people and shows that together we can create real impact. When the community comes together, we build a support network that inspires hope, drives growth, and reaffirms the values that have defined us for generations.",
+      "titlecarousel4": "Events",
+      "descriptioncarousel4": "We celebrate our traditions with events, festivals, and gatherings that keep our culture alive. Each of these activities allows us to reconnect with our roots, share our customs with new generations, and strengthen the sense of identity that unites us as a community. Through music, food, crafts, and the artistic expressions that shape our heritage, we honor the legacy of those who came before us and build, together, a future in which our traditions continue to flourish.",
+      "titlecarousel5": "Shops",
+      "descriptioncarousel5": "The shops in our community are much more than simple places to buy goods: they are spaces that reflect our identity, our flavors, and our traditions. In every aisle, we find products that connect us to home, from traditional ingredients to crafts and items that celebrate our culture. These businesses, created and sustained by Latino hands, strengthen the local economy and become gathering places where we share stories, advice, and a sense of belonging. Supporting our shops means supporting our people, our families, and the collective dream we build every day."
     }
     ,
     "features": {
@@ -60,7 +70,17 @@ export const translation = {
     "carousel": {
       "title": "Próximamente un adelanto de nuestro viaje visual!",
       "next": ">>",
-      "previous": "<<"
+      "previous": "<<",
+      "titlecarousel1": "Abogados",
+      "descriptioncarousel1": "La comunidad latina continúa demostrando su fortaleza a través de la solidaridad y el apoyo mutuo, especialmente cuando se trata de acceder a recursos legales. Gracias a donaciones y al compromiso de abogados que ofrecen orientación, talleres y asistencia comunitaria, muchas familias pueden recibir la ayuda que necesitan para enfrentar situaciones complejas. Estos profesionales, junto con organizaciones locales, trabajan mano a mano para proporcionar información accesible, defender derechos y garantizar que nadie enfrente sus desafíos legales en soledad. Cada contribución —ya sea tiempo, conocimiento o recursos— fortalece nuestra red comunitaria y reafirma el poder de unirnos para proteger y elevar a nuestra gente.",
+      "titlecarousel2": "Comunidad",
+      "descriptioncarousel2": "Creemos lazos auténticos entre personas que comparten valores, idioma y un profundo amor por la cultura latina. Esta conexión genuina nos permite construir una red de apoyo sólida, donde compartimos experiencias, ofrecemos consejos y nos impulsamos mutuamente a crecer. En cada encuentro, fortalecemos nuestra identidad, celebramos lo que nos une y creamos espacios seguros donde cada voz es escuchada y cada historia tiene un lugar. Así, seguimos construyendo comunidad, avanzando juntos y honrando el espíritu de unidad que caracteriza a nuestra gente.",
+      "titlecarousel3": "Donaciones",
+      "descriptioncarousel3": "La comunidad latina se caracteriza por su espíritu solidario y su capacidad de apoyarse mutuamente en los momentos más importantes. A través de donaciones, ya sea de tiempo, recursos o conocimientos, fortalecemos los lazos que nos unen y construimos oportunidades para quienes más lo necesitan. Cada aporte, por pequeño que parezca, representa un gesto de amor y compromiso hacia nuestra gente, y demuestra que juntos podemos generar un impacto real. Cuando la comunidad se une, creamos una red de apoyo que inspira esperanza, impulsa el crecimiento y reafirma los valores que nos han definido por generaciones.",
+      "titlecarousel4": "Eventos",
+      "descriptioncarousel4": "Celebramos nuestras tradiciones con eventos, festivales y encuentros que mantienen viva nuestra cultura. Cada una de estas actividades nos permite reencontrarnos con nuestras raíces, compartir nuestras costumbres con nuevas generaciones y fortalecer el sentido de identidad que nos une como comunidad. A través de la música, la gastronomía, las artesanías y las expresiones artísticas que dan forma a nuestro patrimonio, honramos el legado de quienes nos precedieron y construimos, juntos, un futuro en el que nuestras tradiciones continúen floreciendo.",
+       "titlecarousel5": "Tiendas",
+      "descriptioncarousel5": "Las tiendas de nuestra comunidad son mucho más que simples lugares de compra: son espacios donde se refleja nuestra identidad, nuestros sabores y nuestras tradiciones. En cada pasillo encontramos productos que nos conectan con nuestro hogar, desde ingredientes típicos hasta artesanías y artículos que celebran nuestra cultura. Estos negocios, creados y sostenidos por manos latinas, fortalecen la economía local y se convierten en puntos de encuentro donde compartimos historias, consejos y un sentido de pertenencia. Apoyar nuestras tiendas es apoyar a nuestra gente, a nuestras familias y al sueño colectivo que construimos día a día."
     },
     "features": {
       "title": "¡Un adelanto de nuestra experiencia visual próximamente!",

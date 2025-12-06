@@ -1,13 +1,16 @@
 import React from 'react';
-import { LocalizerProps, i18n as t } from '../i18n/localizer';
+import { LocalizerProps, i18n as t  } from '../i18n/localizer';
+import LanguageSelector from './languaje';
 
 export const Hero: React.FC<LocalizerProps> = ({ locale }) => {
   const handleOnClick = () => {
     window.location.href = '#about';
   };
 
+  console.log('Rendering Hero component with locale:', locale);
   return (
     <section>
+      
       <h1 className="text-white text-center text-2xl py-4">
         {t[locale].title}
         <span className="text-white"> {t[locale].title2}</span>

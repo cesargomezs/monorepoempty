@@ -5,6 +5,7 @@ export const store = configureStore({
     reducer: {
         localizer: localizerReducer
     }
+
 })
 
 export type RootState = ReturnType<typeof store.getState>;

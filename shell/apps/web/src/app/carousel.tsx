@@ -1,28 +1,29 @@
 import React, { useState } from "react";
-import { LocalizerProps, i18n as t } from '../i18n/localizer';
+import { i18n as t } from '../i18n/localizer';
 
 
-interface CarouselProps {
+export interface CarouselProps {
   images: string[];
-
+  locale: string; 
 }
 
 
-const Carousel: React.FC<CarouselProps> = ({ images }) => {
+const Carousel: React.FC<CarouselProps> = ({ images,locale} ) => {
+  
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   const titlescarousel: {[key: number]: string} = {
-    1: t["en-US"].carousel.titlecarousel1,
-    2: t["en-US"].carousel.titlecarousel2,
-    3: t["en-US"].carousel.titlecarousel3,
-    4: t["en-US"].carousel.titlecarousel4,
-    5: t["en-US"].carousel.titlecarousel5,
+    1: t[locale].carousel.titlecarousel1,
+    2: t[locale].carousel.titlecarousel2,
+    3: t[locale].carousel.titlecarousel3,
+    4: t[locale].carousel.titlecarousel4,
+    5: t[locale].carousel.titlecarousel5,
   };
   const descriptioncarousel: {[key: number]: string} = {
-    1: t["en-US"].carousel.descriptioncarousel1,
-    2: t["en-US"].carousel.descriptioncarousel2,
-    3: t["en-US"].carousel.descriptioncarousel3,
-    4: t["en-US"].carousel.descriptioncarousel4,
-    5: t["en-US"].carousel.descriptioncarousel5,
+    1: t[locale].carousel.descriptioncarousel1,
+    2: t[locale].carousel.descriptioncarousel2,
+    3: t[locale].carousel.descriptioncarousel3,
+    4: t[locale].carousel.descriptioncarousel4,
+    5: t[locale].carousel.descriptioncarousel5,
   };
 
   const nextSlide = () => {

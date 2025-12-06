@@ -3,25 +3,24 @@ import { Background } from "./background";
 import ImagesCarousel from "./carouselimg";
 import { Footer } from "./footer";
 import { Hero } from "./hero";
-//import { useAppSelector } from '../redux/hooks';
+import { useAppSelector } from '../redux/hooks';
 
 
 export function App() {
-  //const locale = useAppSelector((state) => state.localizer.locale);
+  const locale = useAppSelector((state) => state.localizer.locale);
+  
   return (
     <div>
       <main className="relative">
-        <Background/>
+        <Background/>  
       <div className="absolute z-20 h-full">
-        <Hero locale="en-US" />
+        <Hero locale={locale} />    
         <div className="bg-white w-[100vw]">
-              <About locale="en-US" />
-              <ImagesCarousel locale="en-US"/>
-              <Footer locale="en-US" />
+              <About locale={locale} />
+              <ImagesCarousel locale={locale}/>
+              <Footer locale={locale} />
         </div>
-        
-       
-
+      
       </div>
       </main>
     </div>

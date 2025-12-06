@@ -23,7 +23,7 @@ const ImagesCarousel: React.FC<LocalizerProps> = ({ locale })  => {
       </header>
 
       <main className=" bg-slate-900">
-        <Carousel images={images} />
+        <Carousel images={images} locale={locale} />
       </main>
     </div>
   );

@@ -6,6 +6,7 @@ export enum LocalizerActionTypes {
 
 interface Localize {
   type: LocalizerActionTypes.LOCALIZE;
+  
   payload: {
     locale: string;
   };
@@ -15,7 +16,10 @@ export type LocalizerActions = Localize;
 
 export type Localizer = { [key: string]: (typeof translation)['en-US'] };
 
+
 export type LocalizerProps = { locale: string };
+
+
 
 export const i18n = translation as unknown as Localizer;
 

@@ -6,7 +6,7 @@ export interface LocalizeState {
 }
 
 export const initialState: LocalizeState = {
-  locale: getLocale(),
+  locale: getLocale()
 };
 
 const localizerSlice = createSlice({

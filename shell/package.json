@@ -12,6 +12,8 @@
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@types/jest": "^30.0.0",
+    "@types/mocha": "^10.0.10",
     "@types/node": "20.19.9",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
@@ -34,6 +36,7 @@
   ],
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
+    "@reduxjs/toolkit": "^2.11.0",
     "framer-motion": "^12.23.24",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

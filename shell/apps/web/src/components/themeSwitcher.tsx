@@ -2,6 +2,7 @@
 import React from 'react';
 import { useThemeDispatcher } from './themeContext'; // Importamos el hook que devuelve dispatch
 
+
 const ThemeSwitcher: React.FC = () => {
   // Obtenemos el tema actual y la función dispatch
   const { theme, dispatch } = useThemeDispatcher();
@@ -21,9 +22,9 @@ const ThemeSwitcher: React.FC = () => {
         fontSize: '16px',
         cursor: 'pointer',
         border: 'none',
-        borderRadius: '5px',
+        borderRadius: '10px',
         // Estilos para el botón
-        backgroundColor: theme === 'light' ? '#333' : '#eee',
+        backgroundColor: theme === 'light' ? '#333' : '#fff',
         color: theme === 'light' ? '#fff' : '#000',
       }}
     >

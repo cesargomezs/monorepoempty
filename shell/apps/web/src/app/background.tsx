@@ -12,7 +12,7 @@ export const Background = () => {
           muted={true}
           loop={true}
           playing={true}
-          width={'100vw'}
+          width={'110vw'}
           height={'100vh'}
           className="z-0 fixed mx-auto"
         />

@@ -1,0 +1,16 @@
+/*
+ * Ahora, las reglas de fondo y color deben aplicarse al contenedor #root.
+ * También puedes usar las clases de tema en selectores descendientes (ej: #root.dark h1)
+ */
+
+ #root.light {
+    background-color: #ffffff; /* Fondo blanco para el modo claro */
+    color: #1a1a1a; /* Texto oscuro */
+    min-height: 100vh; /* Asegura que el contenedor cubra toda la altura */
+  }
+  
+  #root.dark {
+    background-color: #1a1a1a; /* Fondo oscuro para el modo oscuro */
+    color: #ffffff; /* Texto blanco */
+    min-height: 100vh;
+  }

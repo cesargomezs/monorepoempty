@@ -13,9 +13,9 @@ export function App() {
     <div>
       <main className="relative">
         <Background/>  
-      <div className="absolute z-20 h-full">
+      <div className="absolute z-20 h-full" >
         <Hero locale={locale} />    
-        <div className="bg-white w-[100vw]">
+        <div className="bg-white dark:bg-slate-900 w-[100vw]">
               <About locale={locale} />
               <ImagesCarousel locale={locale}/>
               <Footer locale={locale} />

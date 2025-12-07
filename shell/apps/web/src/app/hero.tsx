@@ -7,7 +7,7 @@ export const Hero: React.FC<LocalizerProps> = ({ locale }) => {
     window.location.href = '#about';
   };
 
-  console.log('Rendering Hero component with locale:', locale);
+  //console.log('Rendering Hero component with locale:', locale);
   return (
     <section>
       

@@ -9,26 +9,26 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
     <section className="py-4 px-6" id="about">
       <div className="py-8">
       
-        <h2 className="text-center lg:text-5xl md:text-4xl text-3xl mb-6 text-blue-900">
+        <h2 className="text-center lg:text-5xl md:text-4xl text-3xl mb-6 dark:text-slate-200 text-blue-900">
         {t[locale].about.title}
         </h2>
 
         <div className="flex gap-[40px] flex-wrap justify-center items-center content-center">
 
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny1}
             </p>
             
           </div>
           
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny2}
             </p>
           </div>
 
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny3}
             </p>

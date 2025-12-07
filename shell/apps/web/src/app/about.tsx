@@ -39,7 +39,7 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
         <br/>
         <div className="flex gap-[40px] top-40 flex-wrap justify-center items-center  ">
           
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
+          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
             <img  src="/src/assets/images/logoVision.png" className="w-32 h-29 mb-1"/>
             <h2 className="text-center lg:text-2xl md:text-4xl text-3xl mb-6 text-blue-900">
             {t[locale].about.vision}
@@ -49,7 +49,7 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
             </p>
           </div>
 
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
+          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
           <img src="/src/assets/images/logoMision.png" className="w-32 h-29 mb-0 items-center"/>
             <h2 className="text-center lg:text-2xl md:text-4xl text-3xl mb-6 text-blue-900">
             {t[locale].about.mission}

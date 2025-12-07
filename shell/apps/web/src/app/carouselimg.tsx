@@ -17,9 +17,9 @@ const ImagesCarousel: React.FC<LocalizerProps> = ({ locale })  => {
   return (
     <div className="App overflow-y-hidden">
       <header className="App-header">
-        <h1 className="text-4xl dark:text-slate-200 font-bold text-center my-6">
+        <h2 className="lg:text-3xl md:text-2xl text-2xl  dark:text-slate-200 text-blue-900 font-bold text-center my-6">
         {t[locale].carousel.title}
-        </h1>
+        </h2>
       </header>
 
       <main className=" bg-slate-900">

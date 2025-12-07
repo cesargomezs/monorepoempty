@@ -12,7 +12,6 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
         <h2 className="text-center lg:text-5xl md:text-4xl text-3xl mb-6 dark:text-slate-200 text-blue-900">
         {t[locale].about.title}
         </h2>
-
         <div className="flex gap-[40px] flex-wrap justify-center items-center content-center p-14">
 
           <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-14 outline-black/5 dark:bg-amber-400">

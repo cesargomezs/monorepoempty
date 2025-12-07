@@ -20,7 +20,6 @@ export function App() {
               <ImagesCarousel locale={locale}/>
               <Footer locale={locale} />
         </div>
-      
       </div>
       </main>
     </div>

@@ -63,10 +63,8 @@ const Carousel: React.FC<CarouselProps> = ({ images,locale} ) => {
           </div>
         ))}
       
-        
       </div>
 
-      {/* Prev Button */}
       <button
         className="absolute overflow-x: hidden; shadow-xl top-1/2 left-0 transform -translate-y-1/2 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500 rounded-full hover:bg-red-300 text-white p-3"
         onClick={prevSlide}
@@ -74,7 +72,6 @@ const Carousel: React.FC<CarouselProps> = ({ images,locale} ) => {
         {t["en-US"].carousel.previousimg}
       </button>
 
-      {/* Next Button */}
       <button
         className="absolute overflow-x: hidden; shadow-xl top-1/2 right-3 transform -translate-y-1/2 bg-gradient-to-r from-pink-500 to-yellow-500 hover:from-green-400 hover:to-blue-500 rounded-full hover:bg-red-300 text-white p-3"
         onClick={nextSlide}

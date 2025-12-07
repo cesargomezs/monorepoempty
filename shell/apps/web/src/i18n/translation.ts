@@ -92,7 +92,7 @@ export const translation = {
       "image5AltText": "Otro grupo de gráficos que también simbolizan el progreso",
       "image6AltText": "Grupo diverso de personas conversando"
     },
-    "copyright": "Copyright © 2025 Viviendo en Usa - All Rights Reserved."
+    "copyright": "Copyright © 2025 Viviendo en USA - All Rights Reserved."
   },
   "es-ES": {
     "title": "Viviendo en",
@@ -139,7 +139,7 @@ export const translation = {
       "image5AltText": "Otro grupo de gráficos que también simbolizan el progreso",
       "image6AltText": "Grupo diverso de personas conversando"
     },
-    "copyright": "Copyright © 2025 Viviendo en Usa - All Rights Reserved."
+    "copyright": "Copyright © 2025 Viviendo en USA - All Rights Reserved."
   }    
 }
 export const AVAILABLE_LOCALES = [

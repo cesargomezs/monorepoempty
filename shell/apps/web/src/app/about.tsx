@@ -13,33 +13,31 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
         {t[locale].about.title}
         </h2>
 
-        <div className="flex gap-[40px] flex-wrap justify-center items-center content-center">
+        <div className="flex gap-[40px] flex-wrap justify-center items-center content-center p-14">
 
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-14 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny1}
             </p>
             
           </div>
           
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-14 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny2}
             </p>
           </div>
 
-          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-11 outline-black/5 dark:bg-amber-400">
+          <div className="card shadow-xl shadow-gray-900 mx-auto max-w-sm items-center rounded-xl bg-sky-200 p-14 outline-black/5 dark:bg-amber-400">
             <p className="p-6 hover:shadow-warm transition-all duration-300 hover:-translate-y-1 animate-fade-in-up border-border/50">
               {t[locale].about.destiny3}
             </p>
           </div>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <div className="flex gap-[40px] top-40 flex-wrap justify-center items-center  ">
+
+        <div className="flex gap-[40px] top-40 flex-wrap justify-center items-center ">
           
-          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
+          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white outline-black/5 dark:bg-slate-300 p-14">
             <img  src="/src/assets/images/logoVision.png" className="w-32 h-29 mb-1"/>
             <h2 className="text-center lg:text-2xl md:text-4xl text-3xl mb-6 text-blue-900">
             {t[locale].about.vision}
@@ -49,7 +47,7 @@ export const About: React.FC<LocalizerProps> = ({ locale }) => {
             </p>
           </div>
 
-          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white p-11 outline-black/5 dark:bg-white">
+          <div className="card shadow-xl shadow-gray-900 hover:scale-105 mx-auto max-w-sm items-center rounded-xl bg-white outline-black/5 dark:bg-slate-300 p-14">
           <img src="/src/assets/images/logoMision.png" className="w-32 h-29 mb-0 items-center"/>
             <h2 className="text-center lg:text-2xl md:text-4xl text-3xl mb-6 text-blue-900">
             {t[locale].about.mission}

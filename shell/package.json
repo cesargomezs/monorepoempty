@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-      "serve:web": "npx nx serve web"
+      "serve:web": "npx nx serve web",
+      "build:web": "npx nx build web",
+      "deploy:web": "nx reset && rm -fr apps/web/dist && npm run build:web && gh-pages -d apps/web/dist"
     },
   "private": true,
   "devDependencies": {

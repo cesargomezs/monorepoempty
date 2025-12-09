@@ -2,7 +2,9 @@
   "name": "@shell/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+      "serve:web": "npx nx serve web"
+    },
   "private": true,
   "devDependencies": {
     "@nx/js": "22.1.1",

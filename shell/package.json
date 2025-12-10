@@ -5,7 +5,8 @@
   "scripts": {
     "serve:web": "npx nx serve web",
     "build:web": "npx nx build web",
-    "deploy:web": "nx reset && rm -fr apps/web/dist && npm run build:web && gh-pages -d apps/web/dist"
+    "deploy:web": "gh-pages -d dist/apps/web",
+    "baseHref": "https://cesargomezs.github.io/shell/apps/web/"
   },
   "private": true,
   "devDependencies": {

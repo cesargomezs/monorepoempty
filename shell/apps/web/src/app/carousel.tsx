@@ -37,13 +37,12 @@ const Carousel: React.FC<CarouselProps> = ({ images,locale} ) => {
   };
 
   return (
-    <div className="relative w-screen max-h-screen overflow-hidden mb-6 ">
+    <div className="relative w-screen max-h-screen overflow-hidden mb-4">
       <div className="overflow-hidden h-dvh">
         {images.map((image, index) => (
-          
           <div
             key={index}
-            className={`absolute inset-0  overflow-y-hidden transition-transform transform ${
+            className={`absolute inset-0 transition-transform transform ${
               index === currentIndex ? "translate-x-0" : "translate-x-full" 
             }`}
           >
@@ -52,14 +51,18 @@ const Carousel: React.FC<CarouselProps> = ({ images,locale} ) => {
               alt={`Slide ${index}`}
               className="w-full h-full object-cover overflow-y-hidden"
             />
-            <div className="absolute h-full w-full bottom-0 bg-black bg-opacity-75">
-              <div className="flex items-center text-center justify-center">
-                <div className="w-[65%] translate-y-20 mb-8">
-                  <span className="text-orange-600 lg:text-6xl md:text-5xl text-5xl mb-2"> {titlescarousel[index + 1]}</span>
-                  <span className="inline-block align-[2px] text-left text-stone-300 lg:text-3xl md:text-2xl text:2xl mb-7 font-light'">{descriptioncarousel[index+1]}</span>
+            
+            <div className="absolute h-full w-full bottom-0 bg-black bg-opacity-75 overflow-y-auto ">
+              <div className="absolute w-full h-5/6">
+                <div className="flex items-center text-center justify-center">
+                  <div className="w-[72%] translate-y-10 mb-8">
+                    <span className="text-orange-600 lg:text-6xl md:text-5xl text-5xl mb-4 block"> {titlescarousel[index + 1]} </span>
+                    <span className="inline-block align-[2px] text-left text-stone-300 lg:text-3xl md:text-2xl text:1xl mb-6 font-light'">{descriptioncarousel[index+1]}</span>
+                  </div>
                 </div>
               </div>
             </div>
+
           </div>
         ))}
       

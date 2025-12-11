@@ -4,7 +4,7 @@ import LanguageSelector from './languaje';
 
 export const Hero: React.FC<LocalizerProps> = ({ locale }) => {
   const handleOnClick = () => {
-    window.location.href = '#about';
+    window.location.href = 'monorepoempty/#about';
   };
 
   //console.log('Rendering Hero component with locale:', locale);

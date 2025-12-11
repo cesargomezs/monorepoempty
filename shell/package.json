@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve:web": "npx nx serve web",
-    "build:web": "npx nx build web",
-    "deploy:web": "gh-pages -d dist/apps/web",
-    "baseHref": "https://cesargomezs.github.io/shell/apps/web/"
+    "build:web": "nx build web", 
+    "serve:web": "nx serve web --open",
+    "deploy:web": "nx reset && rm -fr dist/apps/web && nx build web --prod --base=/ && gh-pages -d dist/apps/web",
+    "test": "nx test",
+    "typecheck": "nx typecheck"
+    
   },
   "private": true,
   "devDependencies": {
@@ -26,6 +28,7 @@
     "@vitejs/plugin-react": "^4.2.0",
     "@vitest/ui": "4.0.9",
     "autoprefixer": "10.4.13",
+    "gh-pages": "^6.3.0",
     "jiti": "2.4.2",
     "jsdom": "~22.1.0",
     "nx": "22.2.0",
@@ -38,7 +41,7 @@
   },
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/web/*"
   ],
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
